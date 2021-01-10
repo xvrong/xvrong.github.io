@@ -1,10 +1,10 @@
 # Site settings
-title: BY xv_rong
-SEOTitle: xv_rong的博客 | BY Blog
+title: xv_rong
+SEOTitle: xv_rong的博客 | xv_rong Blog
 header-img: img/post-bg-desk.jpg
 email: rongsheng_qv@outlook.com
 description: "搞事情"
-keyword: "BY, BY Blog, xv_rong的博客"
+keyword: "xv_rong, xv_rong Blog, xv_rong的博客"
 url: "https://xvrong.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/xvrong/xv_rong.github.io" # you code repository

@@ -156,6 +156,7 @@ body {
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.paulzzh.tech/touhou/random') no-repeat 0% 20%/ cover;
 }
 p {
   margin: 30px 0;

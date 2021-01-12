@@ -156,7 +156,7 @@ body {
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pixiv59548189.png') 0% 20%/ cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pixiv59548189.png') repeat;
 }
 p {
   margin: 30px 0;

@@ -405,7 +405,6 @@ pre code {
   }
 }
 .navbar-custom {
-  background-color:none;
   border: none;
   position: absolute;
   top: 0;
@@ -441,7 +440,6 @@ pre code {
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)); */
     border-bottom: 1px solid transparent;
   }
   .navbar-custom body {
@@ -470,6 +468,7 @@ pre code {
 }
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2));
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
@@ -508,6 +507,7 @@ pre code {
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
+    background-image:none;
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);

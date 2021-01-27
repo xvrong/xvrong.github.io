@@ -355,7 +355,7 @@ pre code {
   #huxblog_navbar {
     /**
 		 * Sharable code and 'out' function
-		 */
+     */
     opacity: 0;
     transform: scaleX(0);
     transform-origin: top right;
@@ -405,7 +405,8 @@ pre code {
   }
 }
 .navbar-custom {
-  background: none;
+  /* background: black; */
+  background:none;
   border: none;
   position: absolute;
   top: 0;
@@ -441,6 +442,7 @@ pre code {
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.602),rgba(255, 255, 255, 0)); */
     border-bottom: 1px solid transparent;
   }
   .navbar-custom body {

@@ -6,6 +6,7 @@
 }
 @media (min-width: 768px) {
   .post-container {
+    margin-top:30px;
     padding-right: 5%;
   }
 }
@@ -49,18 +50,27 @@
   padding-left: 0px;
 }
 .catalog-container {
-  padding: 50px;
+  position:relative;
+  float:right;
+  width:300px;
+  padding:0px;
+  height: 100%;
 }
 .side-catalog {
-  display: block;
-  overflow: auto;
-  height: 100%;
-  padding-bottom: 40px;
-  width: 195px;
+  display:block;
+  overflow:auto;
+  padding-top:40px;
+  width: 100%;
+  padding-left:30px;
+  border-top:2px solid #ddd;
+  border-radius:2px;
+  box-shadow: 0 0 10px 5px #ddd;
+  height: 102vh
 }
 .side-catalog.fixed {
-  position: fixed;
-  top: -21px;
+  position:fixed;
+  top: -2vh;
+  bottom:0;
 }
 .side-catalog.fold .catalog-toggle::before {
   content: "+";
@@ -529,7 +539,8 @@ pre code {
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
-    margin-bottom: 20px;
+    margin-bottom: 0px; 
+    /* xv_rong为了电脑端侧边栏显示 */
     /* response on desktop */
   }
 }

@@ -65,8 +65,8 @@ gitalk:
 ba_track_id: f9b3da7f068f1abf9cf9276f2a09f7eb
 
 # Google Analytics
-# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-188314977-1'            # Format: UA-xxxxxx-xx
+ga_domain: https://xvrong.fun/           # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 # Featured Tags

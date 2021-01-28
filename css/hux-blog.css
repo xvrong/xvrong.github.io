@@ -50,6 +50,7 @@
   padding-left: 0px;
 }
 .catalog-container {
+  background: none;
   position:relative;
   float:right;
   width:300px;
@@ -416,6 +417,7 @@ pre code {
 }
 .navbar-custom {
   border: none;
+  background-color: transparent;
   position: absolute;
   top: 0;
   left: 0;
